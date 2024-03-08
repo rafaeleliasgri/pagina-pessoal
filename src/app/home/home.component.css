@@ -68,3 +68,63 @@
 .banner .box .buttons i {
     margin: 0 8px;
 }
+
+/*  Box About */
+
+.about .box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+.about .box .img {
+    flex: 1;
+}
+
+.about .box .img img {
+    width: 240px;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.about .box .text {
+    flex: 2;
+    /* margin-top: 15px; */
+    padding: 15px;
+}
+
+.about .box .text h3 {
+    color: var(--color-blue-2);
+    margin-top: 15px;
+}
+
+.about .box .text p {
+    margin: 15px 0;
+    text-align: justify;
+}
+
+.about .box .text a {
+    color: var(--color-pink-1);
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.about .box .text a:hover {
+    color: var(--color-blue-1);
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .about .box {
+        flex-direction: row;
+        margin-top: 75px;
+    }
+
+    .about .box .img img {
+        width: 100%;
+    }
+
+    .about .box .text {
+        padding-left: 40px;
+    }
+}
