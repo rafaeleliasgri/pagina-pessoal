@@ -58,7 +58,7 @@
     text-decoration: none;
     font-weight: 700;
     background: var(--color-blue-1);
-    color:#fff;
+    color: #fff;
 }
 
 .banner .box .buttons a:hover {
@@ -79,6 +79,7 @@
 
 .about .box .img {
     flex: 1;
+    margin: auto;
 }
 
 .about .box .img img {
@@ -114,10 +115,66 @@
     text-decoration: underline;
 }
 
+/* Box skills */
+
+.skills {
+    background: var(--color-black-1);
+}
+
+.skills .box h2,
+.skills .box h3,
+.skills .box h4 {
+    color: #fff;
+}
+
+.skills .box h3 {
+    margin: 5px 0 20px;
+    font-size: var(--font-size-4);
+}
+
+.skills .box h4 {
+    margin-top: 12px;
+}
+
+.skills .box .items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.skills .box .items .skill {
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    text-align: center;
+}
+
+.skills .box .items .skill:hover {
+    background: #ffffff1f;
+}
+
+.skills .box .items .skill img,
+.skills .box .items .skill svg {
+    width: 90px;
+}
+
+
+
 @media (min-width: 768px) {
+    /* Box Banner */
+
+    /* Box About */
     .about .box {
         flex-direction: row;
         margin-top: 75px;
+    }
+
+    .about .box .img {
+        margin: 0 0 0 0;
     }
 
     .about .box .img img {
@@ -127,4 +184,17 @@
     .about .box .text {
         padding-left: 40px;
     }
+
+    /* Box Skills */
+    .skills .box .items .skill {
+        width: 25%;
+    }
+    .skills .box .items .skill img,
+    .skills .box .items .skill svg {
+        width: 120px;
+
+    }
+
+
+
 }
