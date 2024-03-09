@@ -111,6 +111,18 @@
     text-align: justify;
 }
 
+.about .box .text p img {
+    width: 30px;
+}
+
+.about .box .text p img.ai9 {
+    width: 45px;
+}
+
+.about .box .text p img.itau {
+    width: 45px;
+}
+
 .about .box .text a {
     color: var(--color-purple-1);
     font-weight: 400;
