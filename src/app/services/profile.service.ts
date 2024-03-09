@@ -13,7 +13,7 @@ export class ProfileService {
     var profile: Profile = {
       email: 'rafaeleliasgri@alumni.usp.br',
       name: 'Rafael Elias Grigolo',
-      whatsApp: 'wa.link/dophbv',
+      whatsApp: 'https://api.whatsapp.com/send?phone=5511965250808&text=Ol%C3%A1!%20Estou%20em%20seu%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.',
       linkedIn: 'https://www.linkedin.com/in/rafaeleliasgri/'
     }
 
