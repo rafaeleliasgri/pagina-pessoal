@@ -3,7 +3,7 @@
 .banner {
     display: flex;
     justify-content: center;
-    background: linear-gradient(180deg, var(--color-blue-2) 15%, var(--color-blue-3) 100%);
+    background: linear-gradient(180deg, var(--color-green-2) 15%, var(--color-green-3) 100%);
     color: #fff;
     padding-top: 70px;
     text-align: center;
@@ -16,23 +16,29 @@
     padding: 45px 5px;
 }
 
-.banner .box .paragraph {
-    margin: 15px;
-    font-size: var(--font-size-5);
-    font-weight: 400;
-    color: #fff;
-}
-
 .banner .box .title1 {
-    font-size: var(--font-size-3);
+    font-size: var(--font-size-4);
 }
 
 .banner .box .title2 {
     font-size: var(--font-size-1);
     display: block;
-    /* Este comando é usado para, de acordo com o tamanho da tela, o quadrado do texto
+    /* Este comando é usado para que, de acordo com o tamanho da tela, o quadrado do texto
     tenha um limite máximo */
     max-width: 450px;
+}
+
+.banner .box .title3 {
+    font-size: var(--font-size-4);
+    color: orange;
+
+}
+
+.banner .box .paragraph {
+    margin: 15px;
+    font-size: var(--font-size-5);
+    font-weight: 400;
+    color: #fff;
 }
 
 .banner .box .buttons {
@@ -57,12 +63,12 @@
     font-size: var(--font-size-4);
     text-decoration: none;
     font-weight: 700;
-    background: var(--color-blue-1);
+    background: var(--color-green-1);
     color: #fff;
 }
 
 .banner .box .buttons a:hover {
-    background: var(--color-blue-2);
+    background: var(--color-green-2);
 }
 
 .banner .box .buttons i {
@@ -95,7 +101,7 @@
 }
 
 .about .box .text h3 {
-    color: var(--color-blue-2);
+    color: var(--color-green-2);
     margin-top: 15px;
     text-align: justify;
 }
@@ -106,13 +112,13 @@
 }
 
 .about .box .text a {
-    color: var(--color-pink-1);
+    color: var(--color-purple-1);
     font-weight: 400;
     text-decoration: none;
 }
 
 .about .box .text a:hover {
-    color: var(--color-blue-1);
+    color: var(--color-green-1);
     text-decoration: underline;
 }
 
@@ -230,8 +236,17 @@
     text-decoration: none;
 }
 
+.projects .box .project .text .buttons a:hover {
+    /* background: #ffffff1f; */
+    background: gray;
+}
+
 .projects .box .project .text .buttons a.live {
-    background: var(--color-pink-1);
+    background: var(--color-purple-1);
+}
+
+.projects .box .project .text .buttons a.live:hover {
+    background: #dc27f4bf;
 }
 
 .projects .box .project .text .buttons a svg,
@@ -261,7 +276,7 @@
 }
 
 .contact .box h3 i {
-    color: yellow;
+    color: orange;
 }
 
 .contact .box .contacts {
@@ -276,7 +291,7 @@
     align-items: center;
     justify-content: center;
     padding: 10px;
-    background: var(--color-pink-1);
+    background: var(--color-purple-1);
     height: 50px;
     color: #fff;
     border-radius: 35px;
@@ -287,7 +302,7 @@
 }
 
 .contact .box .contacts a:hover {
-    background: #f42771bf;
+    background: #dc27f4bf;
 }
 
 .contact .box .contacts a i {
