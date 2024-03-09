@@ -111,7 +111,70 @@
     text-align: justify;
 }
 
-.about .box .text p img {
+.about .box .text .experiencia1,
+.about .box .text .experiencia2,
+.about .box .text .experiencia3,
+.about .box .text .experiencia4,
+.about .box .text .experiencia5,
+.about .box .text .experiencia6,
+.about .box .text .experiencia7 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 0px 15px 0px;
+}
+
+/* .about .box .text .experiencia6 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+} */
+
+/* .about .box .text .experiencia7 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 35px 0px 15px 0px;
+} */
+
+.about .box .text .experiencia1 img.ai9 {
+    width: 140px;
+}
+
+.about .box .text .experiencia2 img.esalq {
+    width: 77px;
+}
+
+.about .box .text .experiencia3 img.avianca {
+    width: 70px;
+}
+
+.about .box .text .experiencia4 img.latam {
+    width: 70px;
+}
+
+.about .box .text .experiencia5 img.ernstYoung {
+    width: 70px;
+}
+
+.about .box .text .experiencia6 img.itau {
+    width: 70px;
+}
+
+.about .box .text .experiencia7 img.usinaSantoAntonio {
+    width: 100px;
+}
+
+/* .about .box .text p img {
     width: 30px;
 }
 
@@ -122,7 +185,7 @@
 .about .box .text p img.itau {
     width: 45px;
 }
-
+ */
 .about .box .text a {
     color: var(--color-purple-1);
     font-weight: 400;
@@ -328,10 +391,6 @@
     margin-right: 5px;
 }
 
-
-
-
-
 @media (min-width: 768px) {
     /* Box Banner */
 
@@ -372,7 +431,7 @@
     /* Box contact */
     .contact .box .contacts {
         flex-direction: row;
-        
+
     }
 
 
